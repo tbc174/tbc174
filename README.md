@@ -8,8 +8,9 @@ são, inclusive quando a resposta é "não funcionou".
 
 ### O que estou construindo
 
-**[TickerLab](https://github.com/tbc174/tickerlab)** é um laboratório educacional de análise de
-ações e teste de estratégias com dados do passado, para a B3 e a bolsa americana. Começou como um
+**[TickerLab](https://github.com/tbc174/tickerlab)** é uma plataforma de inteligência financeira,
+em fase de testes, de análise de ações e teste de estratégias com dados do passado, para a B3 e a
+bolsa americana. Começou como um
 trabalho de Python e Pandas na faculdade e hoje é um serviço web no ar:
 
 - **Análise e backtest:** 12 estratégias com custos, stops e testes que descontam a sorte
