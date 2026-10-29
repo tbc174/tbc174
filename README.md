@@ -14,19 +14,28 @@ faculdade e hoje é um serviço web no ar: coleta fontes públicas (CVM, Banco C
 outros órgãos), guarda cada original com o hash dele e entrega cada número com a fonte e a data em
 que ficou público.
 
-- **Base própria e auditável:** cada valor datado do dia em que ficou público; uma consulta a um
-  dia nunca enxerga o que só foi publicado depois.
+- **Base própria e auditável:** mais de 80 fontes oficiais e 102 tabelas com contrato versionado;
+  cada valor datado do dia em que ficou público, e uma consulta a um dia nunca enxerga o que só foi
+  publicado depois.
 - **Relatórios e Research:** relatórios em PDF de empresas e de setores, fatos relevantes da CVM e
-  da SEC e fundamentos calculados a partir dos balanços, com a origem de cada número.
+  da SEC e fundamentos calculados a partir dos balanços, com o rastro de cada número até as contas
+  e o documento de origem.
+- **Relatórios abertos no site:** o [pregão do dia](https://tickerlab.com.br/pregao-do-dia.html),
+  feito do fechamento oficial da B3, e estudos como o
+  [Raio-X do circuit breaker de 26/10](https://tickerlab.com.br/raio-x-do-choque.html).
 - **Teste de estratégias:** 12 estratégias com custos, stops e testes que descontam a sorte
   (walk-forward, Monte Carlo, Sharpe deflacionado).
 - **Pesquisa de trading quantitativo** com machine learning e MetaTrader 5, com critério de
-  aprovação escrito antes de olhar os resultados.
+  aprovação escrito antes de olhar os resultados. Nenhum modelo passou no critério, e o resultado
+  negativo também está publicado.
+
+Mais de 11 mil testes automáticos, PostgreSQL de verdade no CI e deploy só de commit com testes
+verdes.
 
 ### Ferramentas
 
-Python · Pandas · Streamlit · Plotly · SQLAlchemy · PostgreSQL · FastAPI · Docker ·
-GitHub Actions · scikit-learn · LightGBM · PyTorch
+Python · Pandas · FastAPI · PostgreSQL · SQLAlchemy · React · TypeScript · Streamlit · Plotly ·
+Docker · GitHub Actions · scikit-learn · LightGBM · PyTorch
 
 ### Contato
 
